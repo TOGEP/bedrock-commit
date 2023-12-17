@@ -44,7 +44,6 @@ func main() {
 		"Analyze the following git diff and generate concise, present-tense commit messages based on the changes.\n"+
 			"- Generate up to 5 commit messages, each as a single line.\n"+
 			"- Write your response using the imperative tense following the kernel git commit style guide.\n"+
-			"Write a high level title."+
 			"\n%s",
 		diffBuffer.String(),
 	)
